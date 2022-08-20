@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "outDir": "dist",
+        "removeComments": true,
+        "rootDir": ".",
+        "skipLibCheck": true,
+        "sourceMap": false,
+        "strict": true,
+        "target": "es6"
+    },
+    "files": ["pbicli.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
