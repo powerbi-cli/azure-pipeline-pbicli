@@ -48,9 +48,9 @@ jobs:
         if: ${{ endsWith(github.ref, 'main') }}
         uses: actions/upload-artifact@v2
         with:
-          name: pbicli-${{ steps.extract_version.outputs.version }}
+          name: pbicli.pbicli-${{ steps.extract_version.outputs.version }}
           path: |
-            pbicli-${{ steps.extract_version.outputs.version }}.vsix
+            pbicli.pbicli-${{ steps.extract_version.outputs.version }}.vsix
       # Preview package
       - name: run tfx-cli - preview version
         if: ${{ endsWith(github.ref, 'develop') }}
@@ -65,6 +65,6 @@ jobs:
         if: ${{ endsWith(github.ref, 'develop') }}
         uses: actions/upload-artifact@v2
         with:
-          name: pbicli-preview-${{ steps.extract_version_preview.outputs.version }}
+          name: pbicli.pbicli-preview-${{ steps.extract_version_preview.outputs.version }}
           path: |
-            pbicli-preview-${{ steps.extract_version_preview.outputs.version }}.vsix
+            pbicli.pbicli-preview-${{ steps.extract_version_preview.outputs.version }}.vsix
