@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "pbicli",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "name": "Power BI CLI",
     "publisher": "pbicli",
     "description": "This extension adds the Power BI CLI (https://powerbi-cli.github.io/) to the pipeline",

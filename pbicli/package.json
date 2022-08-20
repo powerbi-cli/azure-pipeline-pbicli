@@ -1,6 +1,6 @@
 {
     "name": "azure-pipeline-pbicli",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "",
     "main": "tasks.js",
     "scripts": {
