@@ -1,9 +1,9 @@
 {
     "manifestVersion": 1,
     "id": "pbicli-preview",
-    "version": "0.9.0",
-    "name": "PBICLI (Preview)",
-    "publisher": "liprec",
+    "version": "1.0.0",
+    "name": "Power BI CLI (Preview)",
+    "publisher": "pbicli",
     "public": false,
     "description": "This extension adds the Power BI CLI (https://powerbi-cli.github.io/) to the pipeline",
     "tags": ["azure", "deployment", "power bi", "pbicli"],

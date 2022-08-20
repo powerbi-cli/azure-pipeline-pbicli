@@ -29,7 +29,7 @@
 // Based on ScriptType factory from the Azure CLI task:
 // https://github.com/microsoft/azure-pipelines-tasks/blob/master/Tasks/AzureCLIV2/src/ScriptType.ts
 
-import { Utility } from "./Utility";
+import { Utility } from "./utility";
 import { which, tool } from "azure-pipelines-task-lib/task";
 import { ToolRunner } from "azure-pipelines-task-lib/toolrunner";
 
