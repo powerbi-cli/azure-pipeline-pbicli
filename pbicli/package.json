@@ -1,6 +1,6 @@
 {
     "name": "azure-pipeline-pbicli",
-    "version": "0.9.1",
+    "version": "0.9.2",
     "description": "",
     "main": "tasks.js",
     "scripts": {
@@ -19,7 +19,8 @@
     },
     "homepage": "https://github.com/powerbi-cli/azure-pipeline-pbicli#readme",
     "dependencies": {
-        "azure-pipelines-task-lib": "^3.3.1"
+        "azure-pipelines-task-lib": "^3.3.1",
+        "tslib": "^2.4.0"
     },
     "devDependencies": {
         "@types/node": "^17.0.45",
