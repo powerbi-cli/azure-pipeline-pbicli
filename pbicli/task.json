@@ -13,7 +13,7 @@
     "version": {
         "Major": "1",
         "Minor": "0",
-        "Patch": "0"
+        "Patch": "1"
     },
     "minimumAgentVersion": "2.115.0",
     "groups": [
@@ -93,7 +93,7 @@
             "defaultValue": "",
             "required": true,
             "visibleRule": "scriptLocation = inlineScript",
-            "helpMarkDown": "You can write your scripts inline here. When using Windows agent, use PowerShell or PowerShell Core or batch scripting whereas use PowerShell Core or shell scripting when using Linux based agents. For batch files use the prefix \"call\" before every azure command. You can also pass predefined and custom variables to this script using arguments \n\n example for PowerShell/PowerShellCore/shell: \naz --version \naz account show \n\n example for batch:\ncall  az --version \ncall az account show",
+            "helpMarkDown": "You can write your scripts inline here. When using Windows agent, use PowerShell or PowerShell Core or batch scripting whereas use PowerShell Core or shell scripting when using Linux based agents. For batch files use the prefix \"call\" before every pbicli command. You can also pass predefined and custom variables to this script using arguments \n\n example for PowerShell/PowerShellCore/shell: \npbicli version \npbicli workspace list \n\n example for batch:\ncall pbicli version \ncall pbicli workspace list",
             "properties": {
                 "resizable": "true",
                 "rows": "10",
@@ -130,9 +130,9 @@
             "groupName": "advanced",
             "name": "version",
             "type": "string",
-            "label": "PBICLI version",
+            "label": "Version of Power BI CLI",
             "required": false,
-            "helpMarkDown": "The version of the PBICLI to use. If not specified, the latest version will be used."
+            "helpMarkDown": "The version of the Power BI CLI to use. If not specified, the 'latest' version will be used."
         },
         {
             "name": "cwd",
