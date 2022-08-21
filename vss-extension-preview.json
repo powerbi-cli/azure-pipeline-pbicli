@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "pbicli-preview",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Power BI CLI (Preview)",
     "publisher": "pbicli",
     "public": false,
@@ -37,7 +37,7 @@
             "uri": "https://github.com/powerbi-cli/azure-pipeline-pbicli/issues"
         },
         "privacypolicy": {
-            "uri": "https://azurebi-docs.jppp.org/vsts-extensions/privacy-terms.html"
+            "uri": "https://powerbi-cli.github.io/content/privacy.html"
         }
     },
     "repository": {
